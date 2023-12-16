@@ -6,7 +6,7 @@ import tools.ColorOutput;
 public class Main {
     public static void main(String[] args) {
         Bank bank = new Bank();
-        String accountNumbers[]  = {"123", "456", "789", "000"};
+        String[] accountNumbers = {"123", "456", "789", "000"};
 
         for (int i=0; i < 4; i++) {
             Account account = new Account(accountNumbers[i], 1000000 * (i+1));
